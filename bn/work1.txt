@@ -1,0 +1,32 @@
+1) volunteer.php flipkart banner corrected
+amazon add in support us
+polls-  bigrock and flipkart adds
+comment -  bigrock b and flipkart adds
+feedback.php - aligned the printland banner
+
+
+2) brought the polls and comments near the bottom near the sitemap
+
+3) removed the border of the search, looks better now , and added the search in app.php,internship.php,past intern pages,terms.php page and games index page
+
+
+4) added sidebars and adds in the comment and polls page to the left and bottom, shifted content to right div
+
+5) made the form and the page as the same color.
+
+6) added moderation to the queue, the registered and the newly registered users have been placed on moderation queue and only the administrator has been given full access and the power to moderate the posts.
+
+zopim live chat is visible on the right bottom and the webengage feedback on the right side.
+added it to app.php, comment.php,poll.php, games.bnsatnalikafoundation.org 
+
+
+7)A pplication made:-
+
+3 types shortlisted , waitlisted and rejected, protection added through max site protector,
+
+the values are displayed , prvents xss, the email is readonly input to provide a name and status radio button to be updated
+db1 updates the status. A name is given to every corresponding email  and status, email is the primary key in the table.
+
+
+
+8) Also i uploaded the June newsletter in issuu.com and set it up in the gallery page of the website. Also i have created the June Newsletter in mailchimp, check it out.

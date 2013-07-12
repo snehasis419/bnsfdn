@@ -1,0 +1,157 @@
+corrected the advertise.php errors.
+apply.php corrected the left connect us on facebook bar on the left.
+added the search box on every page.
+added comment-htmlcommentbox,poll-pollcode
+
+link of
+Forum page:-phpbb
+Polls
+
+bnsat_bnsat
+
+Past Work (Replace Feedback Page)
+Add the following details:
+B N Satnalika Foundation has awarded scholarship to the following students for the year 2013-14:
+1.	Pranjal Atul Nistani, Nagpur
+
+Update the logo in our Home Page (Marque Section) and Support Us Page.
+marquee updated with the knowlarity banner.
+
+Feedback
+I have added the widget in Home Page. Add it in every page.
+<script id="_webengage_script_tag" type="text/javascript">
+  window.webengageWidgetInit = window.webengageWidgetInit || function(){
+    webengage.init({
+      licenseCode:"~2024bc00"
+    }).onReady(function(){
+      webengage.render();
+    });
+  };
+
+  (function(d){
+    var _we = d.createElement('script');
+    _we.type = 'text/javascript';
+    _we.async = true;
+    _we.src = (d.location.protocol == 'https:' ? "//ssl.widgets.webengage.com" : "//cdn.widgets.webengage.com") +
+              "/js/widget/webengage-min-v-3.0.js";
+    var _sNode = d.getElementById('_webengage_script_tag');
+    _sNode.parentNode.insertBefore(_we, _sNode);
+  })(document);
+</script>
+
+
+About Us
+Remove the extra space after the promoters. Make the background for promoters similar to main background (currently its grey). Align the entire text properly. Justified alignment, same font, etc.
+
+style.css changed , viewport class height changed to 350px css.
+added the following to the content_view img class style="float:left;margin:0px;" to align the picture of promoters within the background.
+
+
+Update our contact no. as (+91) 7679635152 in the website.
+
+
+
+
+
+
+
+Past Interns
+Only the details of following interns will be there:
+•	Jagadeesh
+•	Karthikeyan
+•	Jaspreet Kaur Arora
+•	Neha Trivedi
+•	Shaifalika
+•	Snehasish Saha
+•	Chandradwip Debnath
+Details of Jagadeesh, Karthikeyan, Jaspreet, Neha were already there. Details should include Facebook Link, Email Id, LinkedIn Profile Link, Mobile No.
+Send message to remaining people in Facebook to send their details. If they don’t send by tomorrow let me know.
+Remove the testimonials from the page. Add one advertisement instead.
+Make sure all the descriptions are properly aligned (Justified). Also the next (link) should be aligned properly.
+
+created past_intern,past_interns2 and past_interns3.php files added flipkart banner at bottom.
+
+
+BNMS Foundation Newsletter
+I have made most of the updation. You change the content of the page. Check the articles of April and update the page in the same manner. Remove the current data (as its of January).
+
+Added five articles of april
+
+
+Contact Us
+Properly align the banners. Change Flipkart Banners. Add new products.
+
+Changed the two flipkart banners, to dell mouse and childern books
+Aligned the bottom bigrock banner, changed its top margin, and removed background-color and border as it wasnt getting aligned properly.
+
+
+
+
+
+Volunteer
+The content will be updated later.
+For now add advertisements here. Use BigRock, Flipkart, Ginwiz, Amazon, etc. for advertisement.
+
+Added flipkart, bigrock, and added a link to the ginwiz banner.
+
+
+
+Gallery
+Add advertisements to the left hand side bottom. Use BigRock, Flipkart, Ginwiz, Amazon, etc. for advertisement. Don’t add only one kind of banners, use multiple.
+
+
+
+Added inferno banner(flipkart) and ginwiz banner on the left side bar.
+
+
+
+
+
+
+Apply
+Modify the table. Make it simple, sober. Give headings, subheadings, proper colour combination, etc.
+Also design an automatic bot application by which the applications received online is extracted directly as a excel sheet.
+
+
+
+
+Made a table from database whose data can be taken as a excel using web queries, data->web data-> select table->import.
+Made a new form app.php page, added flipkart and bigrock banners. used twitter bootstrap.css
+max site protector tried but web queries do not work with it.
+
+
+
+
+Mandatory Disclosure
+The link is visible only in home page. Make it visible in every page.
+Also properly align the ads. See the home page atleast. Leave sufficient space for matter.
+
+Aligned the banners properly, added a link to the ginwiz image, aligned it with the bigrock banners.
+
+
+
+
+
+Shop
+Add advertisement banners. Add Flipkart Banners
+
+added flipkart search bar, infibeam search bar aligned..
+
+
+
+
+Games
+Add advertisement banners. Add Flipkart Banners
+
+added three flipkart banners on the sidebar.
+
+
+Advertise with Us
+Add advertisement banners. Add Flipkart Banners
+
+Add flipkart search bar and bigrock add.
+
+
+
+
+

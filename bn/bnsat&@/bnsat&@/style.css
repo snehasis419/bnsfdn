@@ -1,0 +1,626 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+#likebox_1 {
+    background-color: #FFFFFF;
+    border: 5px solid #3C95D9;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    position: fixed;
+    z-index: 10000;
+}
+#likebox_1 img {
+    cursor: pointer;
+    margin-left: -3px;
+    position: absolute;
+    top: 0;
+    z-index: 10000;
+}
+.iimg {
+    border: 0 none;
+    width:340px;
+    margin-left:-300px;
+    maring-top:-1000px;
+}
+.iimg:hover
+{
+-webkit-transform-duration: 3s;
+-webkit-transform: translate(300px,0px); /* Safari and Chrome */
+}
+#google_1 {
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    display: block;
+    position: fixed;
+    z-index: 2000;
+}
+#google_img {
+    border: 0 none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+}
+img {
+    border: 0 none;
+}
+body
+{ font: normal .80em arial, sans-serif;
+
+  background:transparent url(../images/background.jpg) repeat;
+  color: #1D1D1D;}
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.7em;}
+  
+img
+{ border: 0;}
+
+h1, h2, h3, h4, h5, h6 
+{ font: bold 175% arial, sans-serif;
+  color: #933A00;
+  letter-spacing: -1px;
+  margin: 0 0 5px 0;
+  padding: 15px 0 0 0;}
+
+h2
+{ font: bold 165% arial, sans-serif;
+  padding-bottom: 10px;}
+
+h3
+{ font: bold 125% arial, sans-serif;
+  padding: 0 0 5px 0;
+  color: #933A00;}
+
+h4, h5, h6
+{ margin: 0;
+  padding: 0 0 5px 0;
+  font: bold 110% arial, sans-serif;
+  color: #1D1D1D;
+  line-height: 1.5em;}
+
+h5, h6
+{ font: italic 95% arial, sans-serif;
+  color: #1D1D1D;
+  padding-bottom: 15px;}
+
+h6
+{ color: #362C20;}
+
+a, a:hover
+{ background: transparent;
+  outline: none;
+  text-decoration: underline;
+  color: #5D5D5D;}
+
+a:hover
+{ text-decoration: underline;
+  color: #1D1D1D;}
+
+ul
+{ margin: 2px 0 22px 10px;}
+
+ul li
+{ margin: 2px 0 15px 10px;}
+
+ol
+{ margin: 8px 0 22px 20px;}
+
+ol li
+{ margin: 0 0 11px 0;}
+#main, #header, #banner, #menubar, #site_content, #footer, #contact, #footer_content
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#header
+{ width: 1000px;
+  height: 70px;
+  /*background: transparent url(../images/transparent.png) repeat;*/
+  background: transparent;
+  text-align: center;}
+
+#header_name
+{ width: 500px;
+  float: left;}  
+ 
+#header H1
+{ width: 600px;
+  font: bold 250% "Times New Roman", Times, serif;
+  color: #1D1D1D;
+  letter-spacing: -1px;
+  background: transparent;}
+
+span
+{ color: #933A00;}
+
+#header_slogan
+{ width: 500px;
+  float: right;
+  padding-top: 16px;}  
+  
+#header H2
+{ width: 500px;
+  font: italic bold 150% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #1D1D1D;
+  letter-spacing: -1px;
+  background: transparent;}
+
+#menubar
+{ width: 1000px;
+  height: 50px;
+  text-align: center; 
+  margin-top: 20px;
+  color: #000;
+  /*background: transparent;*/
+     background: transparent url(../images/transparent.png) repeat;} 
+  
+#contact{
+  width: 230px;
+  float: left;
+  height: 40px;
+  background: transparent;
+  padding: 10px 0 10px 20px;
+}
+
+#site_content
+{ width: 1000px;
+  overflow: hidden;
+ 
+ /* background:#FFFAFA;*/
+  background:transparent  url(../images/transparent.png) repeat;}  
+  
+#banner_image {
+    margin: 0 auto;
+	width: 960px;
+}
+#slider-wrapper {
+    height: 250px;
+	background: transparent;
+	width: 960px;
+}
+#slider {
+    background: url("../images/loading.gif") no-repeat scroll 50% 50% transparent;
+    height: 250px;
+    position: relative;
+    width: 960px;
+}
+#slider img {
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#slider a {
+    border: 0 none;
+    display: block;
+}
+.nivoSlider {
+    position: relative;
+}
+.nivoSlider img {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.nivoSlider a.nivo-imageLink {
+    border: 0 none;
+    display: none;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 6;
+}
+.nivo-slice {
+    display: block;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+}
+.nivo-box {
+    display: block;
+    position: absolute;
+    z-index: 5;
+}
+.nivo-caption {
+    background: none repeat scroll 0 0 #000000;
+    bottom: 0;
+    color: #FFFFFF;
+    font-family: arial;
+    left: 0;
+    position: absolute;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 8;
+}
+.nivo-caption p {
+    margin: 0;
+    padding: 5px;
+}
+.nivo-caption a {
+    color: red;
+    display: inline !important;
+    text-decoration: none;
+}
+.nivo-caption a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.nivo-html-caption {
+    display: none;
+}
+.nivo-directionNav a {
+    background: url("../images/arrows.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 45%;
+    width: 30px;
+    z-index: 9;
+}
+a.nivo-prevNav {
+    left: 15px;
+}
+a.nivo-nextNav {
+    background-position: -30px 50%;
+    right: 15px;
+}
+.nivo-controlNav {
+    bottom: -30px;
+    left: 50%;
+    margin-left: -40px;
+    position: absolute;
+}
+.nivo-controlNav a {
+    cursor: pointer;
+    float: left;
+    height: 22px;
+    margin-top: 250px;
+    position: relative;
+    text-indent: -9999px;
+    width: 22px;
+    z-index: 9;
+}
+.nivo-controlNav a.active {
+    background-position: 0 -22px;
+}
+
+.sidebar_container
+{ float: left;
+  width: 260px;
+  margin: 0px 0 20px 0;}
+.sidebar_containernew
+{ float: left;
+  width: 260px;
+  margin: -1540px 0 20px 0;}
+.sidebar_containerapp
+{ float: left;
+  width: 260px;
+  margin: -960px 0 20px 0;}
+.sidebar_fb
+{	height: 330px;
+	margin: 0px;
+	padding: 0px;
+	border:1px solid gray;
+	width:210px;}
+.sidebar_container1
+{ float: left;
+  width: 160px; 
+  margin: 33px 0 20px 0;}
+  
+.sidebar_container1 h2
+{  color: #933A00;
+font: italic 150% "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+
+.sidebar_fb1
+{
+	height: 400px;
+	margin: 5px;
+	padding:5px;
+	border:0px solid gray;}
+.sidebar1
+{ float: right;
+  width: 120px;
+  padding-left: 5px;
+  margin-bottom: 5px;}
+
+.sidebar
+{ float: right;
+  width: 240px;
+  padding-left: 10px;
+  margin-bottom: 10px;}
+
+.sidebar_item
+{ 
+  padding: 0 20px 0 0;
+  width: 201px;}
+.sidebar_item h2
+{
+font: bold 150% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.sidebar h2
+{ color: #933A00;
+	}  
+  
+.sidebar h4
+{ font-size: 125%;
+  color: #1D1D1D;}
+
+.sidebar p
+{ font: bold 100% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+color: #1D1D1D;}
+
+.sidebar a
+{ color: #933A00;}
+
+.sidebar a:hover
+{ text-decoration: none;}
+
+.sidebar ul li, .sidebar ul li.selected
+{ list-style: none; 
+  margin: 15px 0;
+  padding: 0;}
+
+.sidebar li.selected, .sidebar li:hover
+{ color: #5D5D5D;
+  text-decoration: none;} 
+
+#content
+{ text-align: justify;
+  width: 960px;
+  padding: 0;
+  margin: 0 0 0 10px;
+  float: left;}
+#contentg
+{ text-align: justify;
+  width: 960px;
+  padding: 0;
+  margin: 0 0 0px 10px;
+  float: left;}
+  
+.content_item
+{ width: 680px;
+  margin: 0 0 20px 20px;
+  float: right;
+}
+.content_item h1
+{	font: bold 170% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+letter-spacing: 0px;
+color: #8B4513; 
+/*color: #ffffff;*/
+}
+.content_item h2
+{	font: bold 150% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+letter-spacing: 0px;
+color: #8B4513; 
+/*color: #ffffff;*/
+}
+.content_item h3
+{	font: bold 130% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	letter-spacing: 0px;
+}
+.content_item p
+{
+	font: bold 110% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.content_item a
+{
+	font: bold 110% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #8B4513;
+}
+.content_item a:hover
+{
+	color: #8B0000;
+}
+.content_item img 
+{
+float:left;
+margin: 0px;
+/*clear:both;*/
+}
+#content1
+{ text-align: justify;
+  width: 960px;
+  padding: 0;
+  margin: 0 0 0 10px;
+  float: left;}
+.content_item_rest
+{ width: 780px;
+  margin: 0 0 20px 20px;
+  float: right;
+}
+.content_item_rest h1
+{	font: bold 190% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+letter-spacing: 0px;
+color: #8B4513; 
+/*color: #ffffff;*/
+}
+.content_item_rest h2
+{	font: bold 150% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+letter-spacing: 0px;
+color: #8B4513; 
+/*color: #ffffff;*/
+}
+.content_item_rest h3
+{	font: bold 110% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	letter-spacing: 0px;
+}
+.content_item_rest p
+{
+	font: bold 110% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.content_item_rest img 
+{
+float:left;
+margin: 5px;
+/*clear:both; */
+}
+.content_item_rest a
+{
+	font: bold 110% "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color: #8B4513;
+}
+.content_item_rest a:hover
+{
+	color: #8B0000;
+}
+.phover a
+{color: #8B4513;
+text-decoration: none;
+}
+.phover a:hover
+{
+color: #8B4513;
+text-decoration: underline;
+}
+#messages 
+{ text-align: justify;
+	/*font: Italic 100% "Comic Sans MS", cursive, sans-serif;*/
+  width: 960px;
+  padding: 0;
+  margin: 0 0 0 10px;
+  float: left;}
+#messages p
+{	font: Italic 100% "Comic Sans MS", cursive, sans-serif;
+}
+.download 
+{
+float: left;
+margin: 5px;
+}
+.content_image
+{ width: 250px;
+  padding: 0px 20px 20px 0px;
+  float: left;}
+  
+.container_header
+{ margin-top: 20px;
+  height: 15px;
+  margin-top: -130px;
+  width: 920px;
+  background: transparent url(../images/container_header.png) repeat-x top;}  
+  
+#footer
+{ padding: 40px 20px 0px 20px;
+  background: transparent;}
+  
+#footer_content
+{/* width: 1110px;*/
+  font: normal 120% arial, sans-serif;
+  letter-spacing: 0px;
+  height: 60px;
+  padding: 0px 0 0px 0;
+  text-align: center; 
+  background: transparent url(../images/background92.jpg) repeat-x;
+  color: #696969;}
+
+#footer a, #footer a:hover
+{ color: #696969;
+  text-decoration: none;}
+
+#footer a:hover
+{ color:#000000;
+text-decoration: underline;}
+
+ul.links
+{ margin: 0;}
+
+ul.links li
+{ list-style: none;
+  padding: 8px 0;}
+
+ul.links li a, ul.links li a:hover
+{ padding: 0 0 0 28px;
+  background: transparent url(../images/page.png) no-repeat left center;
+  color: #06C4E6;
+  text-decoration: underline;} 
+
+ul.links li a:hover
+{ color: #5D5D5D;
+  text-decoration: none;} 
+  
+/* from here: http://www.gmarwaha.com/blog/2007/08/23/lavalamp-for-jquery-lovers */
+.lavaLampWithImage {
+  position: relative;
+  height: 30px;
+  padding: 10px 0px 5px 0;
+  overflow: hidden;
+  float: left;
+  margin: 0 0px 0 0;
+  width: 1000px;
+}
+
+.lavaLampWithImage li {
+  float: left;
+  list-style: none;
+}
+
+.lavaLampWithImage li.back {
+  background: transparent url(../images/transparent.png) repeat;
+  height: 28px;
+  z-index: 8;
+  position: absolute;
+}
+
+.lavaLampWithImage li a {
+  font: bold 120% arial, sans-serif;
+  text-decoration: none;
+  color: #A0522D;
+  letter-spacing: -0px;
+  z-index: 10;
+  display: block;
+  float: left;
+  height: 60px;
+  padding: 5px 0px 0px 35px;
+  position: relative;
+  overflow: hidden;
+}
+.lavaLampWithImage li a:hover{
+color: #800000;
+ border: none;
+ }
+ .lavaLampWithImage li a:active{
+color: #000000;
+ }
+
+ .lavaLampWithImage li a:visited {
+  border: none;
+}
+ #slider3 { height: 1%; overflow:hidden; padding: 0 0 10px 0; }
+#slider3 .viewport { background:#e3e0e0;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px; width:665px; height:505px; float: left; overflow: hidden; position: relative; margin-top:10px; }
+#slider3 .pager { overflow:hidden; list-style: none; clear: both; margin:0 0 0 27px; padding:0;   }
+#slider3 .pager li { margin:3px;  float: left; }
+#slider3 .pager li img{ width:80px; height:80px;}
+#slider3 .pager a { background-color: transparent; text-decoration: none; text-align: center; padding: 5px; color: #555555; font-size: 14px; font-weight: bold; display: block;width:80px; height:80px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;   }
+#slider3 .pager .active {background:#e3e0e0;
+border-bottom:none !important;
+  -webkit-border-radius: 5p;
+     -moz-border-radius: 5px;
+          border-radius: 5px;  color: #fff;  }
+		  #slider3 .buttonsOuter{ display:block; overflow:hidden; top:-30px;}
+#slider3 .buttons { background:#000; display: block; top:60px; float: left; width: 21px; height: 21px; overflow: hidden; position: relative; }
+#slider3 .prev{ float:left; background:url(../images/slidebox_previous.png) no-repeat left bottom;}
+#slider3 .next {  float:right; background:url(../images/slidebox_next.png) no-repeat left bottom;}
+#slider3 .disable { visibility: hidden; }
+#slider3 .overview { list-style: none; position: absolute; width:665px;   top: 0; margin:0; padding:0;  }
+#slider3 .overview img{ float:right; margin:-35px 0 20px 20px;
+border:2px solid #aaaeb2;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px; }
+#slider3 .overview li{ float: left; margin: 0; height: 485px;  padding:20px; width: 625px;}
+#slider3 .overview li p{ padding:15px 0 0 !important; margin:0;}
